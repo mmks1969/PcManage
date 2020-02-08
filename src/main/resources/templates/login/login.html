@@ -8,10 +8,10 @@
     <script th:src="@{/webjars/jquery/1.11.1/jquery.min.js}"></script>
     <script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
 
-    <title>PcmLogin</title>
+    <title>Login</title>
 </head>
 <body class="text-center">
-    <h1>PcmLogin</h1>
+    <h1>Device Management</h1>
     <form method="post" action="/login">
         <!-- エラーメッセージ -->
         <p th:if="${session['SPRING_SECURITY_LAST_EXCEPTION']} != null"
